@@ -10,23 +10,22 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "Kevin 的数字花园",
     pageTitleSuffix: "",
-    enableSPA: false,
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "zh-CN",
-    baseUrl: "https://kevin850115.github.io",
+    baseUrl: "https://kevin850115.github.io/oc-obdoc/",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Noto Sans SC",
+        body: "Noto Sans SC",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
@@ -89,7 +88,6 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
       Plugin.CustomOgImages(),
     ],
   },
