@@ -1,0 +1,11 @@
+{
+  "name": "obsidian-digital-garden",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "quartz": "npx quartz-cli@latest",
+    "build": "npx quartz-cli@latest build",
+    "serve": "npx quartz-cli@latest serve",
+    "deploy": "./deploy.sh"
+  }
+}
