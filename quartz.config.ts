@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "zh-CN",
-    baseUrl: "https://kevin850115.github.io/oc-obdoc/",
+    baseUrl: "https://kevin850115.github.io/oc-obdoc",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
