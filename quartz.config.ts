@@ -10,13 +10,14 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "Kevin 的数字花园",
     pageTitleSuffix: "",
+    enableSPA: false,
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "zh-CN",
-    baseUrl: "https://kevin850115.github.io/oc-obdoc/",
+    baseUrl: "https://kevin850115.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
