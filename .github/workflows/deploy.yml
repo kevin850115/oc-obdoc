@@ -30,9 +30,6 @@ jobs:
           node-version: '20'
           cache: 'npm'
 
-      - name: Install dependencies
-        run: npm ci
-
       - name: Build Quartz
         run: npx quartz-cli@latest build
 
