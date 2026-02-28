@@ -13,6 +13,51 @@ para-folder: Resources
 
 ---
 
+## 🆕 通义万相 Skill（自定义）
+
+我已为你创建了一个**通义万相自定义 skill**！
+
+**位置:** `/home/admin/.openclaw/workspace-wecom-dm-yefeng/skills/tongyi-wanxiang-image/SKILL.md`
+
+**安装方式:**
+```bash
+# 技能已创建，配置 API Key 后即可使用
+# 1. 获取 API Key: https://bailian.console.aliyun.com/
+# 2. 配置环境变量
+export DASHSCOPE_API_KEY="sk-xxxxxxxx"
+
+# 3. 重启网关
+openclaw gateway restart
+```
+
+**使用示例:**
+```bash
+# 调用通义万相 API 生成图片
+curl --location 'https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation' \
+--header 'Authorization: Bearer '$DASHSCOPE_API_KEY \
+--header 'Content-Type: application/json' \
+--data '{
+  "model": "wan2.5-t2i-turbo",
+  "input": {
+    "prompt": "阿里云 MaaS 平台架构，AI 模型部署，云计算，现代科技风格"
+  },
+  "parameters": {
+    "size": "1024*1024",
+    "n": 1
+  }
+}'
+```
+
+**优势:**
+- ✅ 阿里云官方模型，中文支持好
+- ✅ 适合国内用户，访问速度快
+- ✅ 成本较低（约¥0.05-0.15/张）
+- ✅ 支持复杂文字渲染（海报、标题）
+
+---
+
+---
+
 ## 🎨 推荐 Skills 清单
 
 ### 1. **ai-image-generation** ⭐⭐⭐⭐⭐ 强烈推荐
