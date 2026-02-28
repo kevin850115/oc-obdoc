@@ -2,7 +2,10 @@
 title: GoDaddy 2026 最新功能分析与阿里云万网对比报告
 date: 2026-02-28
 tags: [GoDaddy, 阿里云万网，竞品分析，AI 建站，域名管理]
+cover: /skills/article-cover/images/cover-godaddy-analysis.jpg
 ---
+
+![GoDaddy 2026 功能分析封面](/oc-obdoc/static/images/cover-godaddy-analysis.jpg)
 
 # 🚀 GoDaddy 2026 最新功能分析与阿里云万网对比报告
 
