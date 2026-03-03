@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 /**
  * Quartz 4 Configuration
- * Theme: Modern Tech (现代科技风)
+ * Theme: Deep Blue Tech (深蓝科技风)
  * Updated: 2026-03-04 by 智小香
  */
 const config: QuartzConfig = {
@@ -16,39 +16,39 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "zh-CN",
-    baseUrl: "https://kevin850115.github.io/oc-obdoc",
+    baseUrl: "kevin850115.github.io/oc-obdoc",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Noto Sans SC",
-        body: "Noto Sans SC",
+        header: "Inter",
+        body: "Inter",
         code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
-          light: "#f0f4ff",
-          lightgray: "#e0e7ff",
-          gray: "#94a3b8",
-          darkgray: "#475569",
-          dark: "#1e293b",
-          secondary: "#6366f1",
-          tertiary: "#8b5cf6",
-          highlight: "#3b82f6",
-          textHighlight: "#6366f133",
+          light: "#0f172a",      // 深蓝黑背景
+          lightgray: "#1e293b",  // 深蓝灰
+          gray: "#475569",       // 中灰
+          darkgray: "#94a3b8",   // 浅灰
+          dark: "#f1f5f9",       // 浅白文字
+          secondary: "#3b82f6",  // 蓝色（主色）
+          tertiary: "#10b981",   // 绿色（辅助色）
+          highlight: "#60a5fa",  // 浅蓝高亮
+          textHighlight: "#3b82f633", // 蓝色高亮背景
         },
         darkMode: {
-          light: "#0f172a",
-          lightgray: "#1e293b",
-          gray: "#64748b",
-          darkgray: "#94a3b8",
-          dark: "#f1f5f9",
-          secondary: "#818cf8",
-          tertiary: "#a78bfa",
-          highlight: "#60a5fa",
-          textHighlight: "#818cf833",
+          light: "#020617",      // 更深的背景
+          lightgray: "#0f172a",  // 深蓝
+          gray: "#334155",       // 中灰
+          darkgray: "#94a3b8",   // 浅灰
+          dark: "#f8fafc",       // 纯白文字
+          secondary: "#60a5fa",  // 浅蓝
+          tertiary: "#34d399",   // 浅绿
+          highlight: "#93c5fd",  // 更浅的蓝
+          textHighlight: "#60a5fa33",
         },
       },
     },
@@ -61,7 +61,7 @@ const config: QuartzConfig = {
       }),
       Plugin.SyntaxHighlighting({
         theme: {
-          light: "github-light",
+          light: "github-dark",
           dark: "github-dark",
         },
         keepBackground: false,
