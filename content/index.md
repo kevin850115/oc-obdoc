@@ -8,12 +8,13 @@ title: 欢迎来到 Kevin 的数字花园
 
 ## 📚 最近笔记
 
+- [[OpenClaw-config|OpenClaw 配置文档]] ⭐ 最新
 - [[Daily/2026-02-28|今日日记]]
 - [[README|笔记库介绍]]
 - [[domain-agent-technical-analysis|Domain Agent 技术分析]]
-- [[万小域 - 阿里云万网域名智能体介绍|万小域介绍]]
-- [[Projects/aidomain/万小域-Mars智能推荐场景|万小域 Mars 推荐场景]]
-- [[Projects/aidomain/万小域-推荐场景自动化测试报告|万小域测试报告]]
+- [[万小域 - 阿里云万网域名智能体介绍 | 万小域介绍]]
+- [[Projects/aidomain/万小域-Mars 智能推荐场景 | 万小域 Mars 推荐场景]]
+- [[Projects/aidomain/万小域 - 推荐场景自动化测试报告 | 万小域测试报告]]
 
 ## 🗂️ 知识体系
 
