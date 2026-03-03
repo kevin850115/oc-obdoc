@@ -10,7 +10,7 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "Kevin 的数字花园",
     pageTitleSuffix: " | AI 与知识管理",
-    enableSPA: true,
+    enableSPA: false,  // 禁用 SPA 避免路由问题
     enablePopovers: true,
     analytics: {
       provider: "plausible",

@@ -23,10 +23,10 @@ AI 与知识管理的探索实践 · 自动化工作流设计 · 技术变现思
 </p>
 
 <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
-  <a href="/content/System/记忆系统架构" style="display: inline-block; background: linear-gradient(135deg, #3b82f6, #2563eb); color: white; padding: 16px 40px; border-radius: 30px; text-decoration: none; font-weight: 600; font-size: 16px; box-shadow: 0 10px 40px rgba(59, 130, 246, 0.4); transition: all 0.3s;">
+  <a href="../content/System/记忆系统架构" style="display: inline-block; background: linear-gradient(135deg, #3b82f6, #2563eb); color: white; padding: 16px 40px; border-radius: 30px; text-decoration: none; font-weight: 600; font-size: 16px; box-shadow: 0 10px 40px rgba(59, 130, 246, 0.4); transition: all 0.3s;">
     🚀 开始探索
   </a>
-  <a href="/content/Articles/" style="display: inline-block; background: rgba(59, 130, 246, 0.1); color: #60a5fa; padding: 16px 40px; border-radius: 30px; text-decoration: none; font-weight: 600; font-size: 16px; border: 2px solid #3b82f6; transition: all 0.3s;">
+  <a href="../content/Articles/" style="display: inline-block; background: rgba(59, 130, 246, 0.1); color: #60a5fa; padding: 16px 40px; border-radius: 30px; text-decoration: none; font-weight: 600; font-size: 16px; border: 2px solid #3b82f6; transition: all 0.3s;">
     📖 最新文章
   </a>
   <a href="https://github.com/kevin850115" target="_blank" style="display: inline-block; background: rgba(255,255,255,0.05); color: #94a3b8; padding: 16px 20px; border-radius: 30px; text-decoration: none; font-size: 20px; border: 1px solid #334155; transition: all 0.3s;">
@@ -55,7 +55,7 @@ AI 与知识管理的探索实践 · 自动化工作流设计 · 技术变现思
   <p style="color: #94a3b8; line-height: 1.7; margin: 0 0 25px; font-size: 15px;">
     三层记忆架构设计，确保信息的有效存储、检索和持久化。核心原则："不靠脑子，靠文件"
   </p>
-  <a href="/content/System/记忆系统架构" style="color: #60a5fa; text-decoration: none; font-weight: 600; font-size: 15px; display: inline-flex; align-items: center; gap: 8px;">
+  <a href="../content/System/记忆系统架构" style="color: #60a5fa; text-decoration: none; font-weight: 600; font-size: 15px; display: inline-flex; align-items: center; gap: 8px;">
     阅读更多 <span style="font-size: 18px;">→</span>
   </a>
 </div>
@@ -70,7 +70,7 @@ AI 与知识管理的探索实践 · 自动化工作流设计 · 技术变现思
   <p style="color: #94a3b8; line-height: 1.7; margin: 0 0 25px; font-size: 15px;">
     2024，我对 AI 的 3 点预测 - 创新、应用、私有化大模型。金句："同质化的勤奋就是卷"
   </p>
-  <a href="/content/Articles/傅盛开年演讲 -2024 我对 AI 的 3 点预测" style="color: #60a5fa; text-decoration: none; font-weight: 600; font-size: 15px; display: inline-flex; align-items: center; gap: 8px;">
+  <a href="../content/Articles/傅盛开年演讲 -2024 我对 AI 的 3 点预测" style="color: #60a5fa; text-decoration: none; font-weight: 600; font-size: 15px; display: inline-flex; align-items: center; gap: 8px;">
     阅读更多 <span style="font-size: 18px;">→</span>
   </a>
 </div>
@@ -85,7 +85,7 @@ AI 与知识管理的探索实践 · 自动化工作流设计 · 技术变现思
   <p style="color: #94a3b8; line-height: 1.7; margin: 0 0 25px; font-size: 15px;">
     字节跳动最新视频生成大模型官方使用手册 - 多模态参考、导演级操控、双声道音频
   </p>
-  <a href="/content/Articles/Seedance-2.0-官方使用手册" style="color: #60a5fa; text-decoration: none; font-weight: 600; font-size: 15px; display: inline-flex; align-items: center; gap: 8px;">
+  <a href="../content/Articles/Seedance-2.0-官方使用手册" style="color: #60a5fa; text-decoration: none; font-weight: 600; font-size: 15px; display: inline-flex; align-items: center; gap: 8px;">
     阅读更多 <span style="font-size: 18px;">→</span>
   </a>
 </div>
@@ -165,7 +165,7 @@ AI 与知识管理的探索实践 · 自动化工作流设计 · 技术变现思
       <a href="https://github.com/kevin850115/oc-obdoc" target="_blank" style="display: inline-flex; align-items: center; gap: 8px; background: #334155; color: #f1f5f9; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: 600; transition: all 0.3s;">
         <span style="font-size: 18px;">📦</span> GitHub
       </a>
-      <a href="/content/System/" style="display: inline-flex; align-items: center; gap: 8px; background: linear-gradient(135deg, #3b82f6, #2563eb); color: white; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: 600; transition: all 0.3s;">
+      <a href="../content/System/" style="display: inline-flex; align-items: center; gap: 8px; background: linear-gradient(135deg, #3b82f6, #2563eb); color: white; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: 600; transition: all 0.3s;">
         <span style="font-size: 18px;">📖</span> 了解更多
       </a>
     </div>
