@@ -1,7 +1,11 @@
 ---
 created: 2026-02-28
 updated: 2026-02-28
-tags: [#项目/进行中, #阿里云, #对比推荐]
+tags:
+  - 项目/进行中
+  - 阿里云
+  - 对比推荐
+
 para-folder: Projects
 ---
 

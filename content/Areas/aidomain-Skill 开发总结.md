@@ -1,7 +1,11 @@
 ---
 created: 2026-02-28
 updated: 2026-02-28
-tags: [#领域, #AI, #域名, #开发]
+tags:
+  - 领域
+  - AI
+  - 域名
+  - 开发
 para-folder: Areas
 ---
 

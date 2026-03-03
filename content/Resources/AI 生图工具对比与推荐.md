@@ -1,7 +1,11 @@
 ---
 created: 2026-02-28
 updated: 2026-02-28
-tags: [#资源, #AI, #对比推荐]
+tags:
+  - 资源
+  - AI
+  - 对比推荐
+
 para-folder: Resources
 ---
 

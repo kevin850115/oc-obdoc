@@ -1,7 +1,9 @@
 ---
 created: 2026-02-28
 updated: 2026-02-28
-tags: [#资源]
+tags:
+  - 资源
+
 para-folder: Resources
 ---
 

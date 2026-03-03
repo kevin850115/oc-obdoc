@@ -1,7 +1,11 @@
 ---
 created: 2026-02-28
 updated: 2026-02-28
-tags: [#项目/进行中, #域名, #阿里云]
+tags:
+  - 项目/进行中
+  - 域名
+  - 阿里云
+
 para-folder: Projects
 ---
 
