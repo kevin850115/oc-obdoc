@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- 标题 -->
+  <text x="600" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#2c3e50">文件系统结构</text>
+  
+  <!-- 左侧：核心文件 -->
+  <g id="core-files">
+    <rect x="50" y="120" width="500" height="600" rx="10" fill="#ecf0f1" stroke="#3498db" stroke-width="3"/>
+    <text x="300" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2c3e50">📁 核心记忆文件</text>
+    
+    <!-- 文件列表 -->
+    <g font-family="Arial, sans-serif" font-size="18" fill="#2c3e50">
+      <text x="100" y="230">📄 SOUL.md</text>
+      <text x="120" y="255" font-size="14" fill="#7f8c8d">人格定义 | 价值观</text>
+      
+      <text x="100" y="300">📄 USER.md</text>
+      <text x="120" y="325" font-size="14" fill="#7f8c8d">用户信息 | 偏好</text>
+      
+      <text x="100" y="370">📄 IDENTITY.md</text>
+      <text x="120" y="395" font-size="14" fill="#7f8c8d">身份标识 | 角色</text>
+      
+      <text x="100" y="440">📄 MEMORY.md</text>
+      <text x="120" y="465" font-size="14" fill="#7f8c8d">长期记忆 | 精选</text>
+      
+      <text x="100" y="510">📁 memory/</text>
+      <text x="120" y="535" font-size="14" fill="#7f8c8d">每日笔记 | 原始日志</text>
+      
+      <text x="100" y="580">📄 TOOLS.md</text>
+      <text x="120" y="605" font-size="14" fill="#7f8c8d">工具配置 | 环境</text>
+      
+      <text x="100" y="650">📄 HEARTBEAT.md</text>
+      <text x="120" y="675" font-size="14" fill="#7f8c8d">周期性任务</text>
+    </g>
+  </g>
+  
+  <!-- 右侧：知识库 -->
+  <g id="knowledge-base">
+    <rect x="650" y="120" width="500" height="600" rx="10" fill="#ecf0f1" stroke="#2ecc71" stroke-width="3"/>
+    <text x="900" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2c3e50">📚 Obsidian 知识库</text>
+    
+    <!-- 文件夹结构 -->
+    <g font-family="Arial, sans-serif" font-size="18" fill="#2c3e50">
+      <text x="700" y="230">📁 content/</text>
+      <text x="730" y="260" font-size="16" fill="#27ae60">├── 📁 Articles/</text>
+      <text x="760" y="285" font-size="14" fill="#7f8c8d">收录的文章</text>
+      
+      <text x="730" y="330" font-size="16" fill="#27ae60">├── 📁 OpenClaw/</text>
+      <text x="760" y="355" font-size="14" fill="#7f8c8d">配置备份</text>
+      
+      <text x="730" y="400" font-size="16" fill="#27ae60">├── 📁 Daily/</text>
+      <text x="760" y="425" font-size="14" fill="#7f8c8d">日记</text>
+      
+      <text x="730" y="470" font-size="16" fill="#27ae60">├── 📁 Projects/</text>
+      <text x="760" y="495" font-size="14" fill="#7f8c8d">项目文档</text>
+      
+      <text x="730" y="540" font-size="16" fill="#27ae60">└── 📁 Resources/</text>
+      <text x="760" y="565" font-size="14" fill="#7f8c8d">资源</text>
+      
+      <text x="700" y="610">📁 skills/</text>
+      <text x="730" y="635" font-size="14" fill="#7f8c8d">技能备份</text>
+      
+      <text x="700" y="680">📁 scripts/</text>
+      <text x="730" y="705" font-size="14" fill="#7f8c8d">自动化脚本</text>
+    </g>
+  </g>
+  
+  <!-- 底部说明 -->
+  <text x="600" y="770" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">左侧：OpenClaw 原生记忆文件 | 右侧：Obsidian 知识库 (GitHub 同步)</text>
+</svg>

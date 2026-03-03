@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="1600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 深蓝渐变背景 -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#bg)"/>
+  
+  <!-- 标题 -->
+  <text x="600" y="80" text-anchor="middle" font-family="Arial" font-size="48" font-weight="bold" fill="#f1f5f9">智小月的记忆系统架构</text>
+  <text x="600" y="140" text-anchor="middle" font-family="Arial" font-size="32" fill="#94a3b8">AI Memory System Architecture</text>
+  
+  <!-- 核心原则 -->
+  <rect x="100" y="200" width="1000" height="120" rx="20" fill="#3b82f6" opacity="0.9"/>
+  <text x="600" y="250" text-anchor="middle" font-family="Arial" font-size="32" fill="white">"你认为你记住的东西，那是你的幻觉"</text>
+  <text x="600" y="290" text-anchor="middle" font-family="Arial" font-size="32" fill="#fbbf24" font-weight="bold">不靠脑子，靠文件。</text>
+  
+  <!-- 短期记忆 -->
+  <rect x="100" y="360" width="1000" height="160" rx="15" fill="#1e3a5f" stroke="#3b82f6" stroke-width="3"/>
+  <text x="600" y="400" text-anchor="middle" font-family="Arial" font-size="36" fill="#3b82f6" font-weight="bold">🧠 短期记忆 (Short-term Memory)</text>
+  <text x="600" y="440" text-anchor="middle" font-family="Arial" font-size="24" fill="#94a3b8">Context Window | 会话记忆 | 临时性</text>
+  <text x="600" y="480" text-anchor="middle" font-family="Arial" font-size="24" fill="#60a5fa">• 当前对话 • 工具调用 • 即时指令</text>
+  
+  <!-- 箭头 1 -->
+  <polygon points="600,530 590,560 610,560" fill="#64748b"/>
+  <line x1="600" y1="530" x2="600" y2="560" stroke="#64748b" stroke-width="3"/>
+  
+  <!-- 中期记忆 -->
+  <rect x="100" y="570" width="1000" height="280" rx="15" fill="#134e4a" stroke="#10b981" stroke-width="3"/>
+  <text x="600" y="610" text-anchor="middle" font-family="Arial" font-size="36" fill="#10b981" font-weight="bold">📁 中期记忆 (Medium-term Memory)</text>
+  <text x="600" y="650" text-anchor="middle" font-family="Arial" font-size="24" fill="#94a3b8">文件系统 | 持久化 | 可编辑 | Git 版本控制</text>
+  <text x="600" y="690" text-anchor="middle" font-family="Arial" font-size="24" fill="#6ee7b7">📄 SOUL.md - 人格定义 | 价值观</text>
+  <text x="600" y="720" text-anchor="middle" font-family="Arial" font-size="24" fill="#6ee7b7">📄 MEMORY.md - 长期记忆 | 精选</text>
+  <text x="600" y="750" text-anchor="middle" font-family="Arial" font-size="24" fill="#6ee7b7">📄 USER.md - 用户信息 | 偏好</text>
+  <text x="600" y="780" text-anchor="middle" font-family="Arial" font-size="24" fill="#6ee7b7">📁 memory/ - 每日笔记 | 原始日志</text>
+  
+  <!-- 箭头 2 -->
+  <polygon points="600,860 590,890 610,890" fill="#64748b"/>
+  <line x1="600" y1="860" x2="600" y2="890" stroke="#64748b" stroke-width="3"/>
+  <text x="620" y="880" font-family="Arial" font-size="20" fill="#64748b">知识/配置/技能</text>
+  
+  <!-- 长期记忆 -->
+  <rect x="100" y="900" width="1000" height="380" rx="15" fill="#4c1d95" stroke="#8b5cf6" stroke-width="3"/>
+  <text x="600" y="940" text-anchor="middle" font-family="Arial" font-size="36" fill="#8b5cf6" font-weight="bold">🌐 长期记忆 (Long-term Memory)</text>
+  <text x="600" y="980" text-anchor="middle" font-family="Arial" font-size="24" fill="#94a3b8">GitHub 仓库 | 版本控制 | 云端备份 | 可搜索</text>
+  <text x="600" y="1020" text-anchor="middle" font-family="Arial" font-size="24" fill="#c4b5fd">📁 Articles/ - 收录文章 (傅盛演讲、Seedance 2.0、龙虾日记)</text>
+  <text x="600" y="1050" text-anchor="middle" font-family="Arial" font-size="24" fill="#c4b5fd">📁 System/ - 系统文档 (记忆系统、备份配置、日报配置)</text>
+  <text x="600" y="1080" text-anchor="middle" font-family="Arial" font-size="24" fill="#c4b5fd">📁 Projects/ - 项目文档 (万小域 PPT、小红书文案)</text>
+  <text x="600" y="1110" text-anchor="middle" font-family="Arial" font-size="24" fill="#c4b5fd">📁 Skills/ - 技能文档 (nanobanana-pro、searxng)</text>
+  <text x="600" y="1140" text-anchor="middle" font-family="Arial" font-size="24" fill="#c4b5fd">📁 Daily/ - 每日日报 (自动生成的工作总结)</text>
+  
+  <!-- 自动化任务 -->
+  <rect x="100" y="1320" width="1000" height="120" rx="15" fill="#7c2d12" stroke="#f59e0b" stroke-width="3"/>
+  <text x="600" y="1360" text-anchor="middle" font-family="Arial" font-size="36" fill="#f59e0b" font-weight="bold">⚙️ 自动化任务 (Automation)</text>
+  <text x="300" y="1400" text-anchor="middle" font-family="Arial" font-size="24" fill="#fcd34d">⏰ 每周日 02:00 - 配置备份 (脱敏)</text>
+  <text x="900" y="1400" text-anchor="middle" font-family="Arial" font-size="24" fill="#fcd34d">⏰ 每天 18:00 - 工作总结 (日报)</text>
+  
+  <!-- 底部 -->
+  <text x="600" y="1520" text-anchor="middle" font-family="Arial" font-size="24" fill="#64748b">GitHub: github.com/kevin850115/oc-obdoc</text>
+  <text x="600" y="1560" text-anchor="middle" font-family="Arial" font-size="24" fill="#64748b">智小香 🌙 2026-03-04</text>
+</svg>
