@@ -3,13 +3,13 @@ import * as Plugin from "./quartz/plugins"
 
 /**
  * Quartz 4 Configuration
- *
- * See https://quartz.jzhao.xyz/configuration for more information.
+ * Theme: Modern Tech (现代科技风)
+ * Updated: 2026-03-04 by 智小香
  */
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Kevin 的数字花园",
-    pageTitleSuffix: "",
+    pageTitleSuffix: " | AI 与知识管理",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#f0f4ff",
+          lightgray: "#e0e7ff",
+          gray: "#94a3b8",
+          darkgray: "#475569",
+          dark: "#1e293b",
+          secondary: "#6366f1",
+          tertiary: "#8b5cf6",
+          highlight: "#3b82f6",
+          textHighlight: "#6366f133",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#0f172a",
+          lightgray: "#1e293b",
+          gray: "#64748b",
+          darkgray: "#94a3b8",
+          dark: "#f1f5f9",
+          secondary: "#818cf8",
+          tertiary: "#a78bfa",
+          highlight: "#60a5fa",
+          textHighlight: "#818cf833",
         },
       },
     },
@@ -86,9 +86,7 @@ const config: QuartzConfig = {
       }),
       Plugin.Assets(),
       Plugin.Static(),
-      Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      Plugin.CustomOgImages(),
     ],
   },
 }
