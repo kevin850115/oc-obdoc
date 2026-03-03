@@ -11,6 +11,8 @@ CONFIG_DIR="/home/admin/.openclaw"
 DATE=$(date +%Y-%m-%d)
 BACKUP_FILE="$BACKUP_DIR/OpenClaw-核心配置备份-$DATE.md"
 TEMP_CONFIG="/tmp/openclaw-config-sanitized.json"
+TEMP_DEVICE_AUTH="/tmp/device-auth-sanitized.json"
+TEMP_PAIRED="/tmp/paired-sanitized.json"
 
 echo "🚀 开始 OpenClaw 配置自动备份..."
 echo "📅 日期：$DATE"
@@ -22,13 +24,27 @@ mkdir -p "$BACKUP_DIR"
 # 生成脱敏后的配置文件
 echo "🔐 正在脱敏处理..."
 
-# 读取原始配置并脱敏
+# 脱敏 openclaw.json
 cat "$CONFIG_DIR/openclaw.json" | \
   sed 's/"apiKey": "[^"]*"/"apiKey": "***REDACTED***"/g' | \
   sed 's/"clientSecret": "[^"]*"/"clientSecret": "***REDACTED***"/g' | \
   sed 's/"token": "[^"]*"/"token": "***REDACTED***"/g' | \
   sed 's/"encodingAESKey": "[^"]*"/"encodingAESKey": "***REDACTED***"/g' \
   > "$TEMP_CONFIG"
+
+# 脱敏 device-auth.json
+if [ -f "$CONFIG_DIR/identity/device-auth.json" ]; then
+  cat "$CONFIG_DIR/identity/device-auth.json" | \
+    sed 's/"token": "[^"]*"/"token": "***REDACTED***"/g' \
+    > "$TEMP_DEVICE_AUTH"
+fi
+
+# 脱敏 paired.json
+if [ -f "$CONFIG_DIR/devices/paired.json" ]; then
+  cat "$CONFIG_DIR/devices/paired.json" | \
+    sed 's/"token": "[^"]*"/"token": "***REDACTED***"/g' \
+    > "$TEMP_PAIRED"
+fi
 
 # 生成备份文档
 cat > "$BACKUP_FILE" << EOF
@@ -69,10 +85,18 @@ $(cat "$CONFIG_DIR/identity/device.json")
 
 ---
 
+## 🔑 设备认证 (device-auth.json)
+
+\`\`\`json
+$(cat "$TEMP_DEVICE_AUTH")
+\`\`\`
+
+---
+
 ## 📱 配对设备 (paired.json)
 
 \`\`\`json
-$(cat "$CONFIG_DIR/devices/paired.json")
+$(cat "$TEMP_PAIRED")
 \`\`\`
 
 ---
@@ -124,7 +148,7 @@ git commit -m "Cleanup: keep only last 4 backups" || true
 git push origin main || true
 
 # 清理临时文件
-rm -f "$TEMP_CONFIG"
+rm -f "$TEMP_CONFIG" "$TEMP_DEVICE_AUTH" "$TEMP_PAIRED"
 
 echo "✅ 备份完成（已脱敏）！"
 echo "📁 备份文件：$BACKUP_FILE"
