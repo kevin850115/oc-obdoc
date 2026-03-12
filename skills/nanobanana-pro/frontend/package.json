@@ -1,0 +1,18 @@
+{
+  "name": "nanobanana-pro-frontend",
+  "version": "1.0.0",
+  "description": "Nanobanana Pro 生图应用 - 前端",
+  "scripts": {
+    "start": "npx http-server public -p 3000 -o",
+    "dev": "npx http-server public -p 3000"
+  },
+  "keywords": [
+    "ai",
+    "image-generation"
+  ],
+  "author": "智小月",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
