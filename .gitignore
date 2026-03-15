@@ -19,3 +19,21 @@ npm-debug.log*
 # Environment
 .env
 .env.local
+.env.*
+
+# Sensitive Configurations
+**/config.js
+**/credentials.json
+**/secrets/
+**/secret.json
+**/.secrets
+**/api_keys.json
+**/*.key
+**/*.pem
+**/.env.production
+**/.env.local
+
+# Skill specific sensitive files
+skills/**/config.js
+skills/**/credentials.json
+skills/**/backend/config.js
