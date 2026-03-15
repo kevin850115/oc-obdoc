@@ -10,6 +10,14 @@
 
 ---
 
+## 🎨 文档配图
+
+![封面图 - 域名投资主题](aliyun-domain-investor-guide-cover.png)
+
+*封面图：域名投资主题插图，科技感风格，包含域名文字、放大镜、数据图表等元素*
+
+---
+
 ## 🎨 封面配图说明
 
 **使用 Nano Banana 生成封面图**
@@ -192,6 +200,10 @@ python3 scripts/domain_hotspot_analyzer.py --list
 
 ### 输出示例
 
+![热点分析图](aliyun-domain-investor-guide-hotspot.png)
+
+*热点域名分析概念图：AI 智能体主题，机器人观察域名列表，热度星级⭐⭐⭐⭐⭐*
+
 ```
 🔥 热点分析：AI 智能体 (agent)
 热度等级：⭐⭐⭐⭐⭐
@@ -236,6 +248,10 @@ python3 scripts/domain_hotspot_analyzer.py --list
 ## 批量域名筛选
 
 ### 投资人专属工作流
+
+![批量检查流程图](aliyun-domain-investor-guide-batch.png)
+
+*批量域名检查流程图：左侧输入关键词，中间处理引擎，右侧输出可注册域名列表*
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -378,6 +394,10 @@ print(f'可注册：{len(available)} 个')
 | .net | 5 个+ | ¥90 |
 
 ### 成本优化策略
+
+![成本优化图](aliyun-domain-investor-guide-cost.png)
+
+*成本对比图表：原价 vs 活动价柱状图，显示¥38→¥7 优惠，金币堆叠代表节省*
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -632,6 +652,10 @@ python3 scripts/domain_hotspot_analyzer.py claw
 ## 风险提示
 
 ### 投资风险矩阵
+
+![风险评估图](aliyun-domain-investor-guide-risk.png)
+
+*风险评估矩阵图：2x2/3x3 网格显示不同风险等级，颜色从红色到绿色渐变*
 
 | 风险类型 | 风险等级 | 说明 | 缓解措施 |
 |----------|----------|------|----------|
