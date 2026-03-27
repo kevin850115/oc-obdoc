@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e94560"/>
+      <stop offset="100%" style="stop-color:#ff6b6b"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f3460"/>
+      <stop offset="100%" style="stop-color:#533483"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#16c79a"/>
+      <stop offset="100%" style="stop-color:#06d6a0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="700" fill="url(#bgGrad)"/>
+  
+  <!-- Title -->
+  <text x="500" y="50" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="28" font-weight="bold">AI 办公自动化软件能力对比</text>
+  <text x="500" y="80" text-anchor="middle" fill="#aaa" font-family="Arial, sans-serif" font-size="14">2026年3月 | 般若月整理</text>
+  
+  <!-- Radar Chart Background -->
+  <g transform="translate(280, 350)">
+    <!-- Grid circles -->
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#333" stroke-width="1"/>
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#333" stroke-width="1"/>
+    <circle cx="0" cy="0" r="150" fill="none" stroke="#333" stroke-width="1"/>
+    <circle cx="0" cy="0" r="200" fill="none" stroke="#444" stroke-width="2"/>
+    
+    <!-- Axis lines -->
+    <line x1="0" y1="-200" x2="0" y2="200" stroke="#333" stroke-width="1"/>
+    <line x1="-173" y1="-100" x2="173" y2="100" stroke="#333" stroke-width="1"/>
+    <line x1="-173" y1="100" x2="173" y2="-100" stroke="#333" stroke-width="1"/>
+    <line x1="-200" y1="0" x2="200" y2="0" stroke="#333" stroke-width="1"/>
+    <line x1="-100" y1="-173" x2="100" y2="173" stroke="#333" stroke-width="1"/>
+    <line x1="-100" y1="173" x2="100" y2="-173" stroke="#333" stroke-width="1"/>
+    
+    <!-- Labels -->
+    <text x="0" y="-220" text-anchor="middle" fill="#fff" font-size="12">文档处理</text>
+    <text x="200" y="-10" text-anchor="start" fill="#fff" font-size="12">会议助手</text>
+    <text x="170" y="120" text-anchor="start" fill="#fff" font-size="12">代码能力</text>
+    <text x="0" y="230" text-anchor="middle" fill="#fff" font-size="12">集成度</text>
+    <text x="-170" y="120" text-anchor="end" fill="#fff" font-size="12">中文支持</text>
+    <text x="-200" y="-10" text-anchor="end" fill="#fff" font-size="12">企业安全</text>
+    
+    <!-- Data polygons -->
+    <!-- 阿里悟空 -->
+    <polygon points="0,-160 140,-70 90,60 0,180 -120,100 -160,0" fill="url(#bar1)" fill-opacity="0.3" stroke="#e94560" stroke-width="2"/>
+    
+    <!-- Claude Work -->
+    <polygon points="0,-180 60,-30 180,100 0,40 -60,80 -120,0" fill="url(#bar2)" fill-opacity="0.3" stroke="#533483" stroke-width="2"/>
+    
+    <!-- Microsoft Copilot -->
+    <polygon points="0,-180 180,-90 90,40 0,180 -90,60 -180,0" fill="url(#bar3)" fill-opacity="0.3" stroke="#16c79a" stroke-width="2"/>
+  </g>
+  
+  <!-- Legend -->
+  <g transform="translate(600, 180)">
+    <rect x="0" y="0" width="20" height="15" fill="#e94560"/>
+    <text x="30" y="12" fill="#fff" font-size="14">阿里悟空</text>
+    
+    <rect x="0" y="30" width="20" height="15" fill="#533483"/>
+    <text x="30" y="42" fill="#fff" font-size="14">Claude Work</text>
+    
+    <rect x="0" y="60" width="20" height="15" fill="#16c79a"/>
+    <text x="30" y="72" fill="#fff" font-size="14">Microsoft Copilot</text>
+  </g>
+  
+  <!-- Bar Chart -->
+  <g transform="translate(600, 300)">
+    <text x="150" y="-20" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">综合评分</text>
+    
+    <!-- Bars -->
+    <rect x="0" y="0" width="180" height="25" fill="url(#bar1)" rx="3"/>
+    <text x="190" y="17" fill="#fff" font-size="12">阿里悟空 85</text>
+    
+    <rect x="0" y="35" width="175" height="25" fill="url(#bar2)" rx="3"/>
+    <text x="190" y="52" fill="#fff" font-size="12">Claude Work 82</text>
+    
+    <rect x="0" y="70" width="190" height="25" fill="url(#bar3)" rx="3"/>
+    <text x="205" y="87" fill="#fff" font-size="12">Microsoft Copilot 90</text>
+    
+    <rect x="0" y="105" width="160" height="25" fill="#f39c12" rx="3"/>
+    <text x="175" y="122" fill="#fff" font-size="12">Coze/扣子 75</text>
+    
+    <rect x="0" y="140" width="170" height="25" fill="#9b59b6" rx="3"/>
+    <text x="185" y="157" fill="#fff" font-size="12">讯飞听见 78</text>
+    
+    <rect x="0" y="175" width="165" height="25" fill="#3498db" rx="3"/>
+    <text x="180" y="192" fill="#fff" font-size="12">Notion AI 76</text>
+    
+    <rect x="0" y="210" width="155" height="25" fill="#e74c3c" rx="3"/>
+    <text x="170" y="227" fill="#fff" font-size="12">钉钉 AI 72</text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="500" y="670" text-anchor="middle" fill="#666" font-size="12">数据来源：公开资料整理 | 评分基于文档处理、会议助手、代码能力、集成度、中文支持、企业安全六个维度</text>
+</svg>
